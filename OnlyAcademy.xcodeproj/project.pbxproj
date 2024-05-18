@@ -16,6 +16,7 @@
 		78EA1BEB2BF94E8700E481C0 /* OnlyAcademyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EA1BEA2BF94E8700E481C0 /* OnlyAcademyUITests.swift */; };
 		78EA1BED2BF94E8700E481C0 /* OnlyAcademyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EA1BEC2BF94E8700E481C0 /* OnlyAcademyUITestsLaunchTests.swift */; };
 		78EA1BFC2BF9533900E481C0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EA1BFB2BF9533900E481C0 /* ProfileView.swift */; };
+		78EA1BFE2BF959D200E481C0 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EA1BFD2BF959D200E481C0 /* CameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		78EA1BEA2BF94E8700E481C0 /* OnlyAcademyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyAcademyUITests.swift; sourceTree = "<group>"; };
 		78EA1BEC2BF94E8700E481C0 /* OnlyAcademyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyAcademyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		78EA1BFB2BF9533900E481C0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		78EA1BFD2BF959D200E481C0 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				78EA1BD32BF94E8700E481C0 /* Assets.xcassets */,
 				78EA1BD52BF94E8700E481C0 /* Preview Content */,
 				78EA1BFB2BF9533900E481C0 /* ProfileView.swift */,
+				78EA1BFD2BF959D200E481C0 /* CameraView.swift */,
 			);
 			path = OnlyAcademy;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				78EA1BFC2BF9533900E481C0 /* ProfileView.swift in Sources */,
 				78EA1BD02BF94E8500E481C0 /* ContentView.swift in Sources */,
 				78EA1BD22BF94E8500E481C0 /* Item.swift in Sources */,
+				78EA1BFE2BF959D200E481C0 /* CameraView.swift in Sources */,
 				78EA1BCE2BF94E8500E481C0 /* OnlyAcademyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +436,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"OnlyAcademy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Precisamos de acesso à câmera para tirar fotos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -460,6 +465,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"OnlyAcademy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Precisamos de acesso à câmera para tirar fotos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
