@@ -24,35 +24,35 @@ struct ProfileView: View {
                     .shadow(radius: 10)
 
                 Text("Igor Augusto Wolf")
-                    .font(.title)
-                    .fontWeight(.bold)
-                    .padding(.top, 10)
+                                   .font(.title)
+                                   .fontWeight(.bold)
+                                   .padding(.top, 10)
 
-                Text("𝑌𝑜𝑢 𝑎𝑛𝑑 𝑚𝑒… 🧿")
-                    .font(.body)
-                    .padding([.leading, .trailing, .top], 20)
-                    .multilineTextAlignment(.center)
+                               Text("𝑌𝑜𝑢 𝑎𝑛𝑑 𝑚𝑒… 🧿")
+                                   .font(.body)
+                                   .padding([.leading, .trailing, .top], 20)
+                                   .multilineTextAlignment(.center)
 
-                HStack {
-                    VStack {
-                        Text("30")
-                            .font(.title2)
-                            .fontWeight(.bold)
-                        Text("Postagens")
-                    }
-                    VStack {
-                        Text("1039")
-                            .font(.title2)
-                            .fontWeight(.bold)
-                        Text("Seguidores")
-                    }
-                    VStack {
-                        Text("42")
-                            .font(.title2)
-                            .fontWeight(.bold)
-                        Text("Seguindo")
-                    }
-                }
+                               HStack {
+                                   VStack {
+                                       Text("30")
+                                           .font(.title2)
+                                           .fontWeight(.bold)
+                                       Text("Postagens")
+                                   }
+                                   VStack {
+                                       Text("1039")
+                                           .font(.title2)
+                                           .fontWeight(.bold)
+                                       Text("Seguidores")
+                                   }
+                                   VStack {
+                                       Text("42")
+                                           .font(.title2)
+                                           .fontWeight(.bold)
+                                       Text("Seguindo")
+                                   }
+                               }
                 .padding(.top, 20)
 
                 Button(action: {
