@@ -11,8 +11,9 @@ import SwiftData
 @main
 struct OnlyAcademyApp: App {
     var sharedModelContainer: ModelContainer = {
+        // Define o esquema com os modelos persistentes
         let schema = Schema([
-            Item.self,
+            Item.self,  // Não precisa de 'as any PersistentModel.Type' aqui
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,8 +26,8 @@ struct OnlyAcademyApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PlanSelectionView()
+                .modelContainer(sharedModelContainer)  // Injetar o model container
         }
-        .modelContainer(sharedModelContainer)
     }
 }

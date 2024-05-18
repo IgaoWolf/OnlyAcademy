@@ -80,6 +80,7 @@ struct ProfileView: View {
                 }
                 .padding(.top, 20)
             }
+            .navigationBarTitle("Perfil", displayMode: .inline)
         }
     }
 }
