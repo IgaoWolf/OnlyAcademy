@@ -28,26 +28,26 @@ struct ProfileView: View {
                     .fontWeight(.bold)
                     .padding(.top, 10)
 
-                Text("Esta é a biografia do usuário. Aqui você pode adicionar algumas informações sobre você.")
+                Text("𝑌𝑜𝑢 𝑎𝑛𝑑 𝑚𝑒… 🧿")
                     .font(.body)
                     .padding([.leading, .trailing, .top], 20)
                     .multilineTextAlignment(.center)
 
                 HStack {
                     VStack {
-                        Text("34")
+                        Text("30")
                             .font(.title2)
                             .fontWeight(.bold)
                         Text("Postagens")
                     }
                     VStack {
-                        Text("1.2k")
+                        Text("1039")
                             .font(.title2)
                             .fontWeight(.bold)
                         Text("Seguidores")
                     }
                     VStack {
-                        Text("250")
+                        Text("42")
                             .font(.title2)
                             .fontWeight(.bold)
                         Text("Seguindo")
