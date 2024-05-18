@@ -17,6 +17,9 @@
 		78EA1BED2BF94E8700E481C0 /* OnlyAcademyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EA1BEC2BF94E8700E481C0 /* OnlyAcademyUITestsLaunchTests.swift */; };
 		78EA1BFC2BF9533900E481C0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EA1BFB2BF9533900E481C0 /* ProfileView.swift */; };
 		78EA1BFE2BF959D200E481C0 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EA1BFD2BF959D200E481C0 /* CameraView.swift */; };
+		78EA1C002BF95DB600E481C0 /* PlanSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EA1BFF2BF95DB600E481C0 /* PlanSelectionView.swift */; };
+		78EA1C022BF95DE100E481C0 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EA1C012BF95DE100E481C0 /* PaymentView.swift */; };
+		78EA1C042BF95E1700E481C0 /* PaymentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EA1C032BF95E1700E481C0 /* PaymentManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		78EA1BEC2BF94E8700E481C0 /* OnlyAcademyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyAcademyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		78EA1BFB2BF9533900E481C0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		78EA1BFD2BF959D200E481C0 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		78EA1BFF2BF95DB600E481C0 /* PlanSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanSelectionView.swift; sourceTree = "<group>"; };
+		78EA1C012BF95DE100E481C0 /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		78EA1C032BF95E1700E481C0 /* PaymentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,9 @@
 				78EA1BD52BF94E8700E481C0 /* Preview Content */,
 				78EA1BFB2BF9533900E481C0 /* ProfileView.swift */,
 				78EA1BFD2BF959D200E481C0 /* CameraView.swift */,
+				78EA1BFF2BF95DB600E481C0 /* PlanSelectionView.swift */,
+				78EA1C012BF95DE100E481C0 /* PaymentView.swift */,
+				78EA1C032BF95E1700E481C0 /* PaymentManager.swift */,
 			);
 			path = OnlyAcademy;
 			sourceTree = "<group>";
@@ -266,8 +275,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78EA1C042BF95E1700E481C0 /* PaymentManager.swift in Sources */,
 				78EA1BFC2BF9533900E481C0 /* ProfileView.swift in Sources */,
 				78EA1BD02BF94E8500E481C0 /* ContentView.swift in Sources */,
+				78EA1C002BF95DB600E481C0 /* PlanSelectionView.swift in Sources */,
+				78EA1C022BF95DE100E481C0 /* PaymentView.swift in Sources */,
 				78EA1BD22BF94E8500E481C0 /* Item.swift in Sources */,
 				78EA1BFE2BF959D200E481C0 /* CameraView.swift in Sources */,
 				78EA1BCE2BF94E8500E481C0 /* OnlyAcademyApp.swift in Sources */,
