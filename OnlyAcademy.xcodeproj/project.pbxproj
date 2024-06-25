@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		787156482C2B355C0088D4BF /* SupabaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787156472C2B355C0088D4BF /* SupabaseClient.swift */; };
+		7871564A2C2B36C40088D4BF /* ImageUploadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787156492C2B36C40088D4BF /* ImageUploadManager.swift */; };
 		78EA1BCE2BF94E8500E481C0 /* OnlyAcademyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EA1BCD2BF94E8500E481C0 /* OnlyAcademyApp.swift */; };
 		78EA1BD02BF94E8500E481C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EA1BCF2BF94E8500E481C0 /* ContentView.swift */; };
 		78EA1BD22BF94E8500E481C0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EA1BD12BF94E8500E481C0 /* Item.swift */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		787156472C2B355C0088D4BF /* SupabaseClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseClient.swift; sourceTree = "<group>"; };
+		787156492C2B36C40088D4BF /* ImageUploadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploadManager.swift; sourceTree = "<group>"; };
 		78EA1BCA2BF94E8500E481C0 /* OnlyAcademy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlyAcademy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78EA1BCD2BF94E8500E481C0 /* OnlyAcademyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyAcademyApp.swift; sourceTree = "<group>"; };
 		78EA1BCF2BF94E8500E481C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 		78EA1BCC2BF94E8500E481C0 /* OnlyAcademy */ = {
 			isa = PBXGroup;
 			children = (
+				787156472C2B355C0088D4BF /* SupabaseClient.swift */,
+				787156492C2B36C40088D4BF /* ImageUploadManager.swift */,
 				78EA1BCD2BF94E8500E481C0 /* OnlyAcademyApp.swift */,
 				78EA1BCF2BF94E8500E481C0 /* ContentView.swift */,
 				78EA1BD12BF94E8500E481C0 /* Item.swift */,
@@ -279,9 +285,11 @@
 				78EA1BFC2BF9533900E481C0 /* ProfileView.swift in Sources */,
 				78EA1BD02BF94E8500E481C0 /* ContentView.swift in Sources */,
 				78EA1C002BF95DB600E481C0 /* PlanSelectionView.swift in Sources */,
+				7871564A2C2B36C40088D4BF /* ImageUploadManager.swift in Sources */,
 				78EA1C022BF95DE100E481C0 /* PaymentView.swift in Sources */,
 				78EA1BD22BF94E8500E481C0 /* Item.swift in Sources */,
 				78EA1BFE2BF959D200E481C0 /* CameraView.swift in Sources */,
+				787156482C2B355C0088D4BF /* SupabaseClient.swift in Sources */,
 				78EA1BCE2BF94E8500E481C0 /* OnlyAcademyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
