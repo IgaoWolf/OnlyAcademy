@@ -90,3 +90,14 @@ struct ProfileView_Previews: PreviewProvider {
         ProfileView()
     }
 }
+let image = UIImage(named: "example_image")
+ImageUploadManager.shared.uploadImage(image: image) { result in
+    switch result {
+    case .success(let imageUrl):
+        // O upload foi bem-sucedido, você pode usar a URL da imagem (imageUrl) conforme necessário
+        print("Upload bem-sucedido. URL da imagem:", imageUrl)
+    case .failure(let error):
+        // Ocorreu um erro durante o upload da imagem
+        print("Erro ao fazer upload da imagem:", error.localizedDescription)
+    }
+}
